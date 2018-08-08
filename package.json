@@ -1,0 +1,8 @@
+{
+  "name": "node-sqlite3-knex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bdurb/node-sqlite3-knex.git",
+  "author": "bdurb <brian@rpmgreenville.com>",
+  "license": "MIT"
+}
