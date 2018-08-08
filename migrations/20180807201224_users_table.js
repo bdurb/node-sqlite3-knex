@@ -7,7 +7,6 @@ exports.up = function(knex, Promise) {
     .string('name')
     .notNullable()
     .unique()
-    .datetime(now)
   })
 };
 
