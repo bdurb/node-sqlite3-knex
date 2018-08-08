@@ -1,12 +1,12 @@
 const express = require('express');
-const db = require('./data/posts.sqlite3');
+const db = require('./data/dbConfig');
 
 const server = express();
 server.use(express.json());
 
 const PORT = 3300;
 
-server.get('users', (req, res) => {
+server.get('/users', (req, res) => {
   db('users')
   .then(users => {
     res.status(200).json(users);
