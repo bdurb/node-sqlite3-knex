@@ -16,15 +16,15 @@ server.get('/users', (req, res) => {
   })
 })
 
-server.get('/posts', (req, res) => {
-  db('posts')
-  .then(posts => {
-    res.status(200).json(posts)
-  })
-  .catch(() => {
-    res.status(500).json({mesage: "error"})
-  })
-})
+// server.get('/posts', (req, res) => {
+//   db('posts')
+//   .then(posts => {
+//     res.status(200).json(posts)
+//   })
+//   .catch(() => {
+//     res.status(500).json({mesage: "error"})
+//   })
+// })
 
 
 
